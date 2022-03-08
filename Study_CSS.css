@@ -1,6 +1,17 @@
 #main_img{
     display: block;
     margin: 0 auto;
+    border-radius: 20px;
+    
+}
+
+#main_img:hover{
+    transform:scale(1.05);
+    transition: 0.5s all;
+}
+
+body{
+    font-family: sans-serif;
 }
 .small_image{
     border-radius: 8px;
@@ -8,15 +19,27 @@
     margin-left: auto;
     margin-right: auto;
 }
+.small_image:hover{
+    transform:scale(1.1);
+    transition: 0.5s all;
+}
 #Sobor_pic{
-    width: 130px ;
+    width:  160px;
     height: 330px;
     
 }
-.small_image:hover{
-    transform:scale(1.1);
-    transition:1s all;
+
+#Dvor_pic{
+    width:  320px;
+    height: 210px;
 }
-body{
-    font-family: sans-serif;
+
+#Kronwerk_pic{
+    width:  240px;
+    height: 196px;
+}
+
+#Bastion_pic{
+    width:  256px;
+    height: 192px;
 }
