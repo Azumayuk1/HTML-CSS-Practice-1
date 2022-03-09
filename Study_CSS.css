@@ -12,7 +12,22 @@
 }
 
 body{
-    font-family: sans-serif;
+    font-family:'Courier New';
+    font-style: italic;
+    
+}
+
+h1{
+    font-family: Arial;
+    font-size: 16px;
+}
+
+h5,h3{
+    font-family: 'Times New Roman';
+    font-size: 12px;
+    text-align: right;
+    text-shadow: 1px;
+    font-weight: bold;
 }
 
 table,th,td{
