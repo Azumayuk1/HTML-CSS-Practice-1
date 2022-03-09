@@ -1,10 +1,12 @@
-#main_img{
+.header_image{
+    
     display: block;
     margin: 0 auto;
     border-radius: 20px;
 }
 
-#main_img:hover{
+.header_image:hover
+{
     transform:scale(1.05);
     transition: 2s all;
 }
@@ -69,14 +71,6 @@ table,th,td{
     transition: 2s all;
 }
 
-#map1705{
-    
-}
-
-#Kartina1{
-
-}
-
 #Komendanty{
     text-align: center;
     margin-left: auto;
@@ -86,4 +80,17 @@ table,th,td{
 #Contacts{
     text-align: center;
     font-size: 20px;
+}
+
+#Sobor_main{
+    width:  230px;
+    height: 400px;
+}
+#Dvor_main{
+    width:  640px;
+    height: 400px;
+}
+
+#Bastion_main{
+    
 }
